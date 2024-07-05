@@ -3,6 +3,9 @@
     font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
   }
   
+  img{
+    max-width: 100;
+  }
   p {
     font-size: 15px;
   }
@@ -447,6 +450,11 @@
     margin: 0;
   }
 
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
   /* PC用ナビゲーション非表示 */
   #nav-pc {
     display: none;
@@ -470,5 +478,5 @@
     z-index: 100;
   }
 }
-  ;,lmkn,jbhgcfxgrdt6t7y8u9i0@o-[p0.21]
+
 
