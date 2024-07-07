@@ -4,7 +4,7 @@
   }
   
   img{
-    max-width: 100;
+    max-width: 100%;
   }
   p {
     font-size: 15px;
@@ -51,7 +51,10 @@
   #nav-pc > a:active {
     color: #0d0d0d;
   }
-
+ 
+  #nav-sp{
+    display: none;
+  }
   /* メインビジュアル*/
   #main-visual {
     position: relative;
@@ -474,8 +477,57 @@ header{
     top: 0;
     height: 100%;
     width: 100%;
-    display: none;
+    display: block;
     z-index: 100;
+  }
+   /* ×ボタン */
+   #close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+  }
+
+  #nav-sp nav ul {
+    padding-left: 0;
+  }
+
+  #nav-sp nav li {
+    list-style: none;
+  }
+
+  /* ナビゲーションメニュー用ロゴ */
+  #logo-sp {
+    margin: 80px 0 30px 20px;
+  } 
+   /* ナビゲーションのリンクの装飾設定 */
+   #nav-sp nav a {
+    display: block;
+    color: #ffffff;
+  }
+ 
+  #nav-sp nav a:hover {
+     text-decoration: underline;
+   }
+ 
+   #nav-sp .menu {
+     text-decoration: none;
+     margin: 0 20px 0 20px;
+     height: 44px;
+     font-size: 16px;
+     background-image: url("images/arrow.png");
+     background-repeat: no-repeat;
+     background-position: right top;
+   }
+   #sns {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  #sns > a {
+    margin-right: 30px;
   }
 }
 
